@@ -1,1 +1,935 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucas Marcelo de Freitas — Portfólio de Redações | Ensino Médio</title>
+  <meta name="description" content="Site pessoal de conclusão do Ensino Médio: linha do tempo da trajetória escolar e portfólio com as 15 redações completas, em tons de cinza." />
+  <meta name="author" content="Lucas Marcelo de Freitas" />
+  <meta name="theme-color" content="#27272a" />
 
+  <!-- Open Graph (para o link ficar bonito no WhatsApp, Instagram etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lucas Marcelo de Freitas — Portfólio de Redações | Ensino Médio" />
+  <meta property="og:description" content="15 redações completas e a linha do tempo de 14 anos de escola." />
+  <meta property="og:image" content="img/og-cover.jpg" />
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+
+  <!-- CSS próprio (tons de cinza). Nenhuma dependência externa. -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Se o JavaScript estiver desativado, as seções aparecem normalmente -->
+  <noscript>
+    <style>[data-reveal] { opacity: 1 !important; transform: none !important; }</style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- ============================================================
+       CABEÇALHO FIXO
+       ============================================================ -->
+  <header class="site-header" id="topo">
+    <div class="wrap header-inner">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">
+        <span class="brand-mark" aria-hidden="true" data-config="iniciais">LM</span>
+        <span class="brand-text">
+          <strong data-config="nome">Lucas Marcelo de Freitas</strong>
+          <small>Portfólio de Redações</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="nav-toggle-label">Menu</span>
+        <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span></span>
+      </button>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio" class="is-active">Início</a></li>
+          <li><a href="#trajetoria">Trajetória</a></li>
+          <li><a href="#redacoes">Redações</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============================================================
+         SEÇÃO 1 — HERO / APRESENTAÇÃO
+         ============================================================ -->
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            Concluinte do Ensino Médio <span aria-hidden="true">·</span>
+            <span data-config="anoConclusao">2026</span>
+          </p>
+
+          <!-- ✏️ EDITE AQUI: seu nome e sua apresentação -->
+          <h1 class="hero-title">
+            Olá, eu sou<br />
+            <span class="hero-name" data-config="nome">Lucas Marcelo de Freitas</span>.
+          </h1>
+
+          <p class="hero-lead">
+            Este é o meu site de encerramento do Ensino Médio, feito para a disciplina de
+            <strong>Programação Web</strong>. Aqui reuni a minha trajetória escolar e as
+            <strong>15 redações</strong> que escrevi ao longo do 3º ano — cada texto é uma parte
+            da história que construí na escola.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#redacoes">
+              Ler as 15 redações <span aria-hidden="true">→</span>
+            </a>
+            <a class="btn btn-ghost" href="#trajetoria">Ver minha trajetória</a>
+          </div>
+
+          <dl class="hero-stats">
+            <div><dt>Redações</dt><dd>15</dd></div>
+            <div><dt>Fases da escola</dt><dd>6</dd></div>
+            <div><dt>Anos de escola</dt><dd>14</dd></div>
+          </dl>
+        </div>
+
+        <figure class="hero-figure">
+          <!-- ✏️ Troque img/perfil.jpg pela sua foto -->
+          <img src="img/perfil.jpg" width="900" height="1100"
+               alt="Foto de perfil do estudante autor do site" loading="eager" />
+          <figcaption>
+            <span class="figcaption-label">Foto de perfil</span>
+            <span class="figcaption-text">Substitua <code>img/perfil.jpg</code> pela sua foto</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Destaque inspirador exigido pelo briefing -->
+      <div class="wrap">
+        <blockquote class="hero-quote">
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <p>
+            Chegar ao final do Ensino Médio é fechar um ciclo marcante para abrir as portas do
+            mundo. Cada linha de código escrita neste projeto representa não apenas o seu
+            aprendizado técnico, mas também a história única que você construiu nestes anos de
+            escola. Tenha orgulho da sua trajetória, coragem para encarar os novos desafios e a
+            certeza de que você é o único autor do seu próprio futuro!
+          </p>
+          <footer>Mensagem de encerramento <span aria-hidden="true">·</span> Ensino Médio</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SEÇÃO 2 — LINHA DO TEMPO (MEMÓRIAS ESCOLARES)
+         ============================================================ -->
+    <section class="section" id="trajetoria">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Memórias escolares</p>
+          <h2 class="section-title">Quatorze anos de escola, em seis fases</h2>
+          <p class="section-lead">
+            Do Jardim de Infância ao 3º ano do Ensino Médio. Cada fase tem uma foto reservada e
+            um espaço de texto para eu contar os causos, as descobertas e os desafios que vivi.
+          </p>
+        </header>
+
+        <!-- Caixa do modo de edição: os textos de exemplo viram campos editáveis
+             e ficam salvos no próprio navegador (localStorage). -->
+        <div class="tl-tools" data-reveal>
+          <div class="tl-tools-copy">
+            <strong>Textos editáveis</strong>
+            <span>
+              Ative o modo de edição e escreva seus relatos direto no site: o rascunho fica salvo
+              neste navegador e você pode copiar o texto para o HTML quando terminar.
+            </span>
+          </div>
+          <div class="tl-tools-actions">
+            <button class="btn btn-sm" type="button" id="tl-toggle" aria-pressed="false">
+              <span class="tl-toggle-icon" aria-hidden="true">✎</span>
+              <span id="tl-toggle-label">Editar textos</span>
+            </button>
+            <button class="btn btn-ghost btn-sm" type="button" id="tl-reset" hidden>
+              Restaurar exemplos
+            </button>
+          </div>
+          <p class="tl-tools-status" id="tl-status" role="status" aria-live="polite"></p>
+        </div>
+
+        <ol class="timeline">
+          <!-- FASE 01 -->
+          <li class="tl-item" data-reveal>
+            <div class="tl-marker" aria-hidden="true"><span>01</span></div>
+            <article class="tl-card">
+              <div class="tl-media">
+                <!-- ✏️ Troque por img/fase-1.jpg (sua foto desta fase) -->
+                <img src="img/fase-1.jpg" width="1200" height="800" alt="Foto de lembrança do Jardim de Infância" loading="lazy" />
+                <p class="tl-caption">Jardim de Infância • primeiras descobertas</p>
+              </div>
+              <div class="tl-body">
+                <p class="tl-period" data-edit="fase-1-periodo">2013 — 2014</p>
+                <h3 class="tl-title">Jardim de Infância / Pré-escola</h3>
+                <p class="tl-text" data-edit="fase-1-texto">
+                  Foi onde tudo começou: as primeiras letras, as rodas de conversa e a descoberta de
+                  que aprender podia ser divertido. Lembro das tardes de tinta guache, das músicas
+                  de roda e da professora que guardava cada desenho na pasta com o maior cuidado.
+                </p>
+                <ul class="tl-list">
+                  <li>Primeira apresentação de teatro da escola</li>
+                  <li>Aprendi a escrever o meu nome inteiro</li>
+                </ul>
+                <p class="tl-note" data-edit="fase-1-nota">
+                  <strong>Momento marcante:</strong> o dia em que levei o meu livro preferido para
+                  a rodinha de leitura e contei a história para a turma toda.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- FASE 02 -->
+          <li class="tl-item" data-reveal>
+            <div class="tl-marker" aria-hidden="true"><span>02</span></div>
+            <article class="tl-card">
+              <div class="tl-media">
+                <img src="img/fase-2.jpg" width="1200" height="800" alt="Foto de lembrança do Ensino Fundamental I" loading="lazy" />
+                <p class="tl-caption">Ensino Fundamental I • alfabetização e amizades</p>
+              </div>
+              <div class="tl-body">
+                <p class="tl-period" data-edit="fase-2-periodo">2015 — 2019</p>
+                <h3 class="tl-title">Ensino Fundamental I <span class="tl-sub">1º ao 5º ano</span></h3>
+                <p class="tl-text" data-edit="fase-2-texto">
+                  A fase em que a escola virou rotina e a turma virou família. Foram os anos das
+                  feiras de ciências, das provas de tabuada e das amizades que continuam até hoje.
+                  Foi aqui que descobri o gosto por escrever e por entender como as coisas funcionam.
+                </p>
+                <ul class="tl-list">
+                  <li>Primeiro caderno cheio de redações e desenhos</li>
+                  <li>Campeonato de soletração da escola</li>
+                </ul>
+                <p class="tl-note" data-edit="fase-2-nota">
+                  <strong>Desafio superado:</strong> perder o medo de ler em voz alta na frente da
+                  turma — hoje é uma das partes de que mais gosto nas apresentações.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- FASE 03 -->
+          <li class="tl-item" data-reveal>
+            <div class="tl-marker" aria-hidden="true"><span>03</span></div>
+            <article class="tl-card">
+              <div class="tl-media">
+                <img src="img/fase-3.jpg" width="1200" height="800" alt="Foto de lembrança do Ensino Fundamental II" loading="lazy" />
+                <p class="tl-caption">Ensino Fundamental II • mudanças e descobertas</p>
+              </div>
+              <div class="tl-body">
+                <p class="tl-period" data-edit="fase-3-periodo">2020 — 2023</p>
+                <h3 class="tl-title">Ensino Fundamental II <span class="tl-sub">6º ao 9º ano</span></h3>
+                <p class="tl-text" data-edit="fase-3-texto">
+                  Anos de muitas mudanças: mais professores, mais matérias e, no meio do caminho, o
+                  ensino remoto. Aprendi a estudar com autonomia, a organizar meus horários e a
+                  pedir ajuda quando era preciso. Também foi quando comecei a me interessar por
+                  tecnologia.
+                </p>
+                <ul class="tl-list">
+                  <li>Primeiro contato com programação e robótica</li>
+                  <li>Trabalho em grupo que virou amizade para a vida</li>
+                </ul>
+                <p class="tl-note" data-edit="fase-3-nota">
+                  <strong>Curiosidade:</strong> montei meu primeiro “site” em um editor de texto
+                  simples e fiquei horas tentando descobrir por que a imagem não aparecia.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- FASE 04 -->
+          <li class="tl-item" data-reveal>
+            <div class="tl-marker" aria-hidden="true"><span>04</span></div>
+            <article class="tl-card">
+              <div class="tl-media">
+                <img src="img/fase-4.jpg" width="1200" height="800" alt="Foto de lembrança do 1º ano do Ensino Médio" loading="lazy" />
+                <p class="tl-caption">1º ano • novo prédio, novas pessoas</p>
+              </div>
+              <div class="tl-body">
+                <p class="tl-period" data-edit="fase-4-periodo">2024</p>
+                <h3 class="tl-title">1º ano do Ensino Médio</h3>
+                <p class="tl-text" data-edit="fase-4-texto">
+                  Chegada ao Ensino Médio: turma nova, professores novos e a sensação de que o
+                  tempo começa a correr mais rápido. Foi o ano de descobrir o que eu gostava de
+                  estudar de verdade e de aprender a lidar com a pressão das primeiras notas.
+                </p>
+                <ul class="tl-list">
+                  <li>Primeira feira de ciências do Ensino Médio</li>
+                  <li>Decisão de me dedicar mais à leitura e à escrita</li>
+                </ul>
+                <p class="tl-note" data-edit="fase-4-nota">
+                  <strong>Momento inesquecível:</strong> a primeira redação com nota máxima — e a
+                  percepção de que escrever bem é treino, não sorte.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- FASE 05 -->
+          <li class="tl-item" data-reveal>
+            <div class="tl-marker" aria-hidden="true"><span>05</span></div>
+            <article class="tl-card">
+              <div class="tl-media">
+                <img src="img/fase-5.jpg" width="1200" height="800" alt="Foto de lembrança do 2º ano do Ensino Médio" loading="lazy" />
+                <p class="tl-caption">2º ano • aprofundando temas e repertórios</p>
+              </div>
+              <div class="tl-body">
+                <p class="tl-period" data-edit="fase-5-periodo">2025</p>
+                <h3 class="tl-title">2º ano do Ensino Médio</h3>
+                <p class="tl-text" data-edit="fase-5-texto">
+                  O ano em que passei a escrever com mais frequência: redações semanais, leituras
+                  obrigatórias e muitos debates em sala. Aprendi a montar repertório, a estruturar
+                  argumentos e a revisar o próprio texto com mais criticidade.
+                </p>
+                <ul class="tl-list">
+                  <li>Rotina de uma redação por semana</li>
+                  <li>Participação em simulado e em projeto de leitura</li>
+                </ul>
+                <p class="tl-note" data-edit="fase-5-nota">
+                  <strong>Desafio superado:</strong> controlar a ansiedade para escrever no tempo
+                  da prova — hoje consigo planejar, escrever e revisar com calma.
+                </p>
+              </div>
+            </article>
+          </li>
+
+          <!-- FASE 06 -->
+          <li class="tl-item" data-reveal>
+            <div class="tl-marker" aria-hidden="true"><span>06</span></div>
+            <article class="tl-card">
+              <div class="tl-media">
+                <img src="img/fase-6.jpg" width="1200" height="800" alt="Foto de lembrança do 3º ano do Ensino Médio" loading="lazy" />
+                <p class="tl-caption">3º ano • conclusão e novos começos</p>
+              </div>
+              <div class="tl-body">
+                <p class="tl-period" data-edit="fase-6-periodo">2026</p>
+                <h3 class="tl-title">3º ano do Ensino Médio <span class="tl-sub">conclusão</span></h3>
+                <p class="tl-text" data-edit="fase-6-texto">
+                  O ano de fechar o ciclo: as 15 redações deste portfólio, o projeto de Programação
+                  Web e a preparação para o próximo passo. Foi o período mais intenso e também o
+                  mais significativo, porque cada entrega tinha um pouco de tudo o que aprendi.
+                </p>
+                <ul class="tl-list">
+                  <li>Desenvolvimento deste site em HTML, CSS e JavaScript</li>
+                  <li>Portfólio de 15 redações sobre temas contemporâneos</li>
+                </ul>
+                <p class="tl-note" data-edit="fase-6-nota">
+                  <strong>Momento marcante:</strong> ver o site funcionando pela primeira vez e
+                  perceber que o que eu escrevia também podia virar código.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SEÇÃO 3 — PORTFÓLIO DE REDAÇÕES
+         ============================================================ -->
+    <section class="section section-alt" id="redacoes">
+      <div class="wrap">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Portfólio de redações</p>
+          <h2 class="section-title">15 textos, 15 temas contemporâneos</h2>
+          <p class="section-lead">
+            Todas as redações estão aqui na íntegra. Use a busca para encontrar uma palavra-chave,
+            filtre por tema ou abra a leitura completa em uma janela confortável.
+          </p>
+        </header>
+
+        <!-- Barra de busca + contador -->
+        <div class="essay-toolbar" data-reveal>
+          <div class="search-field">
+            <label class="sr-only" for="busca-redacoes">Buscar redações por palavra-chave</label>
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+            </svg>
+            <input
+              type="search"
+              id="busca-redacoes"
+              class="search-input"
+              placeholder="Buscar por tema, título ou palavra-chave…"
+              autocomplete="off"
+              aria-describedby="resultado-busca"
+            />
+            <button class="search-clear" id="limpar-busca" type="button" aria-label="Limpar busca" hidden>×</button>
+          </div>
+          <p class="results-info" id="resultado-busca" aria-live="polite">15 redações disponíveis</p>
+        </div>
+
+        <!-- Filtros por tema -->
+        <div class="filters" role="group" aria-label="Filtrar redações por tema" data-reveal>
+          <button class="chip is-active" type="button" data-filter="todas" aria-pressed="true">Todas <span class="chip-count">15</span></button>
+          <button class="chip" type="button" data-filter="meio-ambiente" aria-pressed="false">Meio ambiente <span class="chip-count">4</span></button>
+          <button class="chip" type="button" data-filter="sociedade" aria-pressed="false">Sociedade e direitos <span class="chip-count">3</span></button>
+          <button class="chip" type="button" data-filter="saude" aria-pressed="false">Saúde e comportamento <span class="chip-count">2</span></button>
+          <button class="chip" type="button" data-filter="tecnologia" aria-pressed="false">Tecnologia e mídia <span class="chip-count">1</span></button>
+          <button class="chip" type="button" data-filter="ciencia" aria-pressed="false">Ciência e tecnologia <span class="chip-count">1</span></button>
+          <button class="chip" type="button" data-filter="economia" aria-pressed="false">Economia <span class="chip-count">2</span></button>
+          <button class="chip" type="button" data-filter="cultura" aria-pressed="false">Cultura e patrimônio <span class="chip-count">2</span></button>
+        </div>
+
+        <!-- Grade de cards: um card por redação (o texto integral fica nos
+             <template> do fim do arquivo). -->
+        <div class="essay-grid" id="lista-redacoes">
+          <!-- BEGIN:CARDS -->
+        <article class="essay-card" data-cat="meio-ambiente" data-num="1" data-reveal>
+          <div class="card-top">
+            <span class="card-num">01</span>
+            <span class="card-cat">Meio ambiente</span>
+          </div>
+          <h3 class="card-title">Espécies em extinção e equilíbrio ecológico: desafios para a conservação da fauna brasileira</h3>
+          <p class="card-preview">O Brasil abriga uma das maiores biodiversidades do planeta, com uma fauna rica e única. No entanto, o avanço do desmatamento, da caça ilegal, da poluição e das mudanças climáticas tem colocado inúmeras…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="1" aria-label="Ler a redação 1 completa: Espécies em extinção e equilíbrio ecológico: desafios para a conservação da fauna brasileira">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="sociedade" data-num="2" data-reveal>
+          <div class="card-top">
+            <span class="card-num">02</span>
+            <span class="card-cat">Sociedade e direitos</span>
+          </div>
+          <h3 class="card-title">Migração e acolhimento: desafios da convivência em contextos globais</h3>
+          <p class="card-preview">Os fluxos migratórios internacionais intensificaram-se nas últimas décadas, impulsionados por conflitos, crises econômicas, mudanças climáticas e busca por melhores condições de vida. Nesse cenário, o…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="2" aria-label="Ler a redação 2 completa: Migração e acolhimento: desafios da convivência em contextos globais">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="meio-ambiente" data-num="3" data-reveal>
+          <div class="card-top">
+            <span class="card-num">03</span>
+            <span class="card-cat">Meio ambiente</span>
+          </div>
+          <h3 class="card-title">El Niño e mudanças climáticas: desafios para a preparação da sociedade diante de eventos extremos</h3>
+          <p class="card-preview">O fenômeno El Niño, caracterizado pelo aquecimento anormal das águas do Oceano Pacífico, tem se tornado cada vez mais intenso e frequente em razão das mudanças climáticas. Seus efeitos — estiagens…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="3" aria-label="Ler a redação 3 completa: El Niño e mudanças climáticas: desafios para a preparação da sociedade diante de eventos extremos">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="saude" data-num="4" data-reveal>
+          <div class="card-top">
+            <span class="card-num">04</span>
+            <span class="card-cat">Saúde e comportamento</span>
+          </div>
+          <h3 class="card-title">Cultura fitness: bem-estar ou busca por estética inatingível</h3>
+          <p class="card-preview">A cultura fitness consolidou-se como um dos fenômenos mais marcantes da sociedade contemporânea. Se, por um lado, ela incentiva a prática de exercícios e a adoção de hábitos saudáveis, por outro, tem…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="4" aria-label="Ler a redação 4 completa: Cultura fitness: bem-estar ou busca por estética inatingível">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="sociedade" data-num="5" data-reveal>
+          <div class="card-top">
+            <span class="card-num">05</span>
+            <span class="card-cat">Sociedade e direitos</span>
+          </div>
+          <h3 class="card-title">Povos originários e direitos constitucionais: desafios para a efetivação da cidadania indígena no Brasil</h3>
+          <p class="card-preview">A Constituição Federal de 1988 representou um marco histórico ao reconhecer aos povos indígenas o direito à diferença cultural, à terra tradicionalmente ocupada e à autonomia organizativa. No entanto,…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="5" aria-label="Ler a redação 5 completa: Povos originários e direitos constitucionais: desafios para a efetivação da cidadania indígena no Brasil">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="tecnologia" data-num="6" data-reveal>
+          <div class="card-top">
+            <span class="card-num">06</span>
+            <span class="card-cat">Tecnologia e mídia</span>
+          </div>
+          <h3 class="card-title">Consumo, mídia e cultura: como as referências mediadas por algoritmos influenciam os modos de vida na sociedade contemporânea</h3>
+          <p class="card-preview">Na sociedade contemporânea, as redes sociais tornaram-se importantes meios de informação e entretenimento. Entretanto, os algoritmos dessas plataformas selecionam os conteúdos apresentados aos usuários,…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 1 min de leitura</span>
+            <button class="card-btn" type="button" data-open="6" aria-label="Ler a redação 6 completa: Consumo, mídia e cultura: como as referências mediadas por algoritmos influenciam os modos de vida na sociedade contemporânea">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="ciencia" data-num="7" data-reveal>
+          <div class="card-top">
+            <span class="card-num">07</span>
+            <span class="card-cat">Ciência e tecnologia</span>
+          </div>
+          <h3 class="card-title">Exploração espacial no século XXI: desafios para a conciliação entre avanço científico e responsabilidade social</h3>
+          <p class="card-preview">A exploração espacial representa uma das maiores conquistas da humanidade, permitindo avanços científicos e tecnológicos importantes. Entretanto, no século XXI, surge um debate sobre a necessidade de…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 1 min de leitura</span>
+            <button class="card-btn" type="button" data-open="7" aria-label="Ler a redação 7 completa: Exploração espacial no século XXI: desafios para a conciliação entre avanço científico e responsabilidade social">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="sociedade" data-num="8" data-reveal>
+          <div class="card-top">
+            <span class="card-num">08</span>
+            <span class="card-cat">Sociedade e direitos</span>
+          </div>
+          <h3 class="card-title">O respeito às diferenças como caminho para a superação dos conflitos sociais na sociedade contemporânea</h3>
+          <p class="card-preview">A sociedade contemporânea é marcada por uma intensa diversidade cultural, étnica, de gênero e de pensamento. No entanto, essa pluralidade, que deveria ser fonte de enriquecimento, frequentemente se…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="8" aria-label="Ler a redação 8 completa: O respeito às diferenças como caminho para a superação dos conflitos sociais na sociedade contemporânea">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="meio-ambiente" data-num="9" data-reveal>
+          <div class="card-top">
+            <span class="card-num">09</span>
+            <span class="card-cat">Meio ambiente</span>
+          </div>
+          <h3 class="card-title">Quando a seca encontra a enchente: impactos sociais e econômicos das mudanças no ciclo hidrológico</h3>
+          <p class="card-preview">As alterações no ciclo hidrológico, intensificadas pelas mudanças climáticas e pela ação humana, têm gerado um cenário paradoxal: regiões que sofrem com estiagens prolongadas também enfrentam enchentes…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="9" aria-label="Ler a redação 9 completa: Quando a seca encontra a enchente: impactos sociais e econômicos das mudanças no ciclo hidrológico">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="saude" data-num="10" data-reveal>
+          <div class="card-top">
+            <span class="card-num">10</span>
+            <span class="card-cat">Saúde e comportamento</span>
+          </div>
+          <h3 class="card-title">A estética como imperativo: riscos e implicações do uso indiscriminado de canetas emagrecedoras</h3>
+          <p class="card-preview">Na sociedade contemporânea, a busca por um corpo considerado ideal tornou-se quase uma obrigação social. Nesse contexto, as chamadas “canetas emagrecedoras” — medicamentos originalmente destinados ao…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="10" aria-label="Ler a redação 10 completa: A estética como imperativo: riscos e implicações do uso indiscriminado de canetas emagrecedoras">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="economia" data-num="11" data-reveal>
+          <div class="card-top">
+            <span class="card-num">11</span>
+            <span class="card-cat">Economia</span>
+          </div>
+          <h3 class="card-title">Da diversão ao endividamento: efeitos socioeconômicos das bets na vida de jovens brasileiros</h3>
+          <p class="card-preview">Nos últimos anos, as plataformas de apostas online, conhecidas como “bets”, conquistaram grande popularidade entre os jovens brasileiros. O que inicialmente se apresenta como uma forma de diversão e…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="11" aria-label="Ler a redação 11 completa: Da diversão ao endividamento: efeitos socioeconômicos das bets na vida de jovens brasileiros">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="meio-ambiente" data-num="12" data-reveal>
+          <div class="card-top">
+            <span class="card-num">12</span>
+            <span class="card-cat">Meio ambiente</span>
+          </div>
+          <h3 class="card-title">Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</h3>
+          <p class="card-preview">O Brasil consolidou-se, nas últimas décadas, como uma das maiores potências agropecuárias do mundo, contribuindo de forma decisiva para a economia nacional e para a segurança alimentar global. No entanto,…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="12" aria-label="Ler a redação 12 completa: Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="economia" data-num="13" data-reveal>
+          <div class="card-top">
+            <span class="card-num">13</span>
+            <span class="card-cat">Economia</span>
+          </div>
+          <h3 class="card-title">O desafio de reduzir as desigualdades entre as regiões do Brasil</h3>
+          <p class="card-preview">O Brasil é um país marcado por profundas desigualdades regionais. Enquanto o Sudeste e o Sul concentram a maior parte da riqueza, da infraestrutura e das oportunidades, o Norte e o Nordeste ainda…</p>
+          <div class="card-foot">
+            <span class="card-meta">4 parágrafos · 2 min de leitura</span>
+            <button class="card-btn" type="button" data-open="13" aria-label="Ler a redação 13 completa: O desafio de reduzir as desigualdades entre as regiões do Brasil">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="cultura" data-num="14" data-reveal>
+          <div class="card-top">
+            <span class="card-num">14</span>
+            <span class="card-cat">Cultura e patrimônio</span>
+          </div>
+          <h3 class="card-title">Preservação dos monumentos históricos e memória coletiva no Brasil contemporâneo (Abordagem I)</h3>
+          <p class="card-preview">A preservação dos monumentos históricos no Brasil contemporâneo enfrenta obstáculos significativos que comprometem a memória coletiva e a identidade cultural da nação. A combinação entre subfinanciamento…</p>
+          <div class="card-foot">
+            <span class="card-meta">5 parágrafos · 3 min de leitura</span>
+            <button class="card-btn" type="button" data-open="14" aria-label="Ler a redação 14 completa: Preservação dos monumentos históricos e memória coletiva no Brasil contemporâneo (Abordagem I)">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+        <article class="essay-card" data-cat="cultura" data-num="15" data-reveal>
+          <div class="card-top">
+            <span class="card-num">15</span>
+            <span class="card-cat">Cultura e patrimônio</span>
+          </div>
+          <h3 class="card-title">Preservação dos monumentos históricos e memória coletiva no Brasil contemporâneo (Abordagem II)</h3>
+          <p class="card-preview">A preservação dos monumentos históricos no Brasil contemporâneo enfrenta desafios estruturais que ameaçam a memória coletiva e a identidade cultural do país. A combinação entre subfinanciamento público,…</p>
+          <div class="card-foot">
+            <span class="card-meta">5 parágrafos · 3 min de leitura</span>
+            <button class="card-btn" type="button" data-open="15" aria-label="Ler a redação 15 completa: Preservação dos monumentos históricos e memória coletiva no Brasil contemporâneo (Abordagem II)">
+              Ler redação completa <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+      <!-- END:CARDS -->
+        </div>
+
+        <!-- Estado vazio da busca -->
+        <div class="empty-state" id="sem-resultados" hidden>
+          <p class="empty-title">Nenhuma redação encontrada</p>
+          <p class="empty-text">Tente outra palavra-chave ou selecione o tema “Todas”.</p>
+          <button class="btn btn-ghost" type="button" id="reset-filtros">Limpar busca e filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SOBRE
+         ============================================================ -->
+    <section class="section" id="sobre">
+      <div class="wrap sobre-grid">
+        <div class="sobre-text" data-reveal>
+          <p class="eyebrow">Sobre este projeto</p>
+          <h2 class="section-title">Um site feito à mão, linha por linha</h2>
+          <p>
+            Este projeto nasceu como trabalho final de <strong>Programação Web</strong>, no 3º ano
+            do Ensino Médio. A ideia era simples: guardar em um só lugar as redações que escrevi
+            durante o ano e, ao mesmo tempo, colocar em prática o que aprendi de HTML, CSS e
+            JavaScript.
+          </p>
+          <p>
+            Todo o site foi escrito do zero, sem frameworks e sem bibliotecas externas: apenas
+            HTML5 semântico, CSS com variáveis de cor e um JavaScript puro que cuida do menu,
+            das animações de rolagem, da busca e da janela de leitura das redações.
+          </p>
+          <p class="sobre-sign">
+            <span data-config="nome">Lucas Marcelo de Freitas</span>
+            <span class="sobre-sign-meta">Concluinte do Ensino Médio <span aria-hidden="true">·</span> <span data-config="anoConclusao">2026</span></span>
+          </p>
+        </div>
+
+        <aside class="sobre-cards" data-reveal>
+          <div class="info-card">
+            <h3>Ficha técnica</h3>
+            <ul class="info-list">
+              <li><span>HTML5</span> estrutura semântica</li>
+              <li><span>CSS3</span> variáveis, grid e responsividade</li>
+              <li><span>JavaScript</span> interações sem bibliotecas</li>
+              <li><span>Hospedagem</span> GitHub Pages</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>O que você encontra aqui</h3>
+            <ul class="info-list">
+              <li><span>15</span> redações completas com busca e filtro</li>
+              <li><span>06</span> fases da trajetória escolar</li>
+              <li><span>01</span> leitor em janela modal acessível</li>
+            </ul>
+          </div>
+          <div class="info-card info-card--quote">
+            <p>
+              “Escrever é organizar o pensamento. Programar também. Este site é a prova de que as
+              duas coisas cabem no mesmo lugar.”
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTATO
+         ============================================================ -->
+    <section class="section section-alt" id="contato">
+      <div class="wrap contato-inner" data-reveal>
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2 class="section-title">Vamos conversar?</h2>
+          <p class="section-lead">
+            Quer comentar uma redação, sugerir um tema ou falar sobre o projeto? É só me chamar.
+          </p>
+        </div>
+        <div class="contato-actions">
+          <!-- ✏️ EDITE AQUI: seu e-mail e seu usuário do GitHub -->
+          <a class="btn btn-primary" href="mailto:seu.email@exemplo.com">Enviar e-mail</a>
+          <a class="btn btn-ghost" href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-brand"><span data-config="nome">Lucas Marcelo de Freitas</span> <span aria-hidden="true">·</span> Portfólio de Redações</p>
+      <p class="footer-note">Feito com HTML, CSS e JavaScript puro <span aria-hidden="true">·</span> Hospedado no GitHub Pages</p>
+      <a class="footer-top" href="#topo">Voltar ao topo <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de voltar ao topo -->
+  <button class="to-top" id="to-top" type="button" aria-label="Voltar ao topo" hidden>
+    <span aria-hidden="true">↑</span>
+  </button>
+
+  <!-- ============================================================
+       JANELA MODAL DE LEITURA
+       ============================================================ -->
+  <div class="modal" id="modal-redacao" role="dialog" aria-modal="true" aria-labelledby="modal-titulo" hidden>
+    <div class="modal-overlay" data-close="overlay"></div>
+    <div class="modal-panel" role="document">
+      <div class="modal-head">
+        <p class="modal-hint">Leitura completa <span aria-hidden="true">·</span> <kbd>Esc</kbd> para fechar</p>
+        <button class="modal-close" type="button" data-close="button" aria-label="Fechar leitura">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+
+      <!-- O conteúdo da redação é injetado aqui pelo JavaScript -->
+      <div class="modal-body" id="modal-conteudo"></div>
+
+      <div class="modal-foot">
+        <button class="modal-nav" type="button" data-nav="prev">
+          <span aria-hidden="true">←</span> Anterior
+        </button>
+        <p class="modal-count" id="modal-contador">1 de 15</p>
+        <button class="modal-nav" type="button" data-nav="next">
+          Próxima <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       CONTEÚDO INTEGRAL DAS REDAÇÕES
+       Cada <template> guarda uma redação completa (transcrita do PDF
+       original); o JavaScript copia o conteúdo para a janela modal.
+       ============================================================ -->
+  <div class="templates" hidden>
+    <!-- BEGIN:TEMPLATES -->
+           <template id="redacao-1" data-cat="meio-ambiente" data-num="1">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 01 <span aria-hidden="true">·</span> Meio ambiente</p>
+          <h2 class="reader-title">Espécies em extinção e equilíbrio ecológico: desafios para a conservação da fauna brasileira</h2>
+          <p class="reader-meta">297 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>O Brasil abriga uma das maiores biodiversidades do planeta, com uma fauna rica e única. No entanto, o avanço do desmatamento, da caça ilegal, da poluição e das mudanças climáticas tem colocado inúmeras espécies em risco de extinção. A perda desses animais não representa apenas um problema ambiental, mas também uma ameaça ao equilíbrio ecológico e à qualidade de vida das populações humanas que dependem dos serviços prestados pelos ecossistemas.</p>
+            <p>A extinção de espécies provoca desequilíbrios em cascata. Predadores, presas e polinizadores desempenham papéis fundamentais na manutenção das cadeias alimentares e na regeneração dos ambientes naturais. Quando uma espécie desaparece, todo o sistema pode ser afetado, gerando consequências como o aumento de pragas, a redução da produtividade agrícola e a degradação de recursos hídricos. Além disso, muitas comunidades tradicionais e populações rurais dependem diretamente da fauna para sua subsistência e cultura, o que torna a conservação também uma questão de justiça social.</p>
+            <p>Apesar da existência de leis de proteção ambiental e de unidades de conservação, a fiscalização ainda é insuficiente e os conflitos entre interesses econômicos e preservação continuam frequentes. O tráfico de animais silvestres, a expansão agropecuária desordenada e a fragmentação de habitats são problemas persistentes que exigem respostas mais eficazes e integradas.</p>
+            <p>Para enfrentar esse desafio, é necessário que o Estado, em parceria com universidades, organizações da sociedade civil e comunidades locais, fortaleça a fiscalização ambiental, amplie os investimentos em pesquisa e monitore de forma mais eficiente as áreas protegidas. Também é fundamental promover a educação ambiental desde a educação básica, valorizando a importância da fauna brasileira e incentivando práticas sustentáveis. Somente por meio de ações coordenadas e do reconhecimento de que a conservação da biodiversidade é um direito coletivo será possível garantir o equilíbrio ecológico e um futuro mais justo para as próximas gerações.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-2" data-cat="sociedade" data-num="2">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 02 <span aria-hidden="true">·</span> Sociedade e direitos</p>
+          <h2 class="reader-title">Migração e acolhimento: desafios da convivência em contextos globais</h2>
+          <p class="reader-meta">271 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>Os fluxos migratórios internacionais intensificaram-se nas últimas décadas, impulsionados por conflitos, crises econômicas, mudanças climáticas e busca por melhores condições de vida. Nesse cenário, o acolhimento de migrantes e refugiados tornou-se um dos grandes desafios contemporâneos, exigindo dos países receptores não apenas políticas públicas eficientes, mas também a construção de uma cultura de convivência baseada no respeito aos direitos humanos.</p>
+            <p>No Brasil, o aumento do número de migrantes e refugiados evidencia tanto oportunidades quanto dificuldades. Se, por um lado, esses grupos contribuem para a diversificação cultural e para o mercado de trabalho, por outro, enfrentam barreiras como a precariedade no acesso a documentação, moradia, saúde e educação. A ausência de políticas estruturadas de acolhimento em grande parte dos municípios agrava a vulnerabilidade social e dificulta a integração plena dessas pessoas à sociedade.</p>
+            <p>Além dos obstáculos materiais, existem desafios relacionados ao preconceito e à xenofobia. Discursos que associam a migração ao desemprego ou à insegurança alimentam a intolerância e dificultam a convivência harmoniosa. Sem o combate a essas narrativas e sem a valorização da diversidade, o acolhimento torna-se incompleto, reduzindo-se a uma assistência emergencial e não a um processo de inclusão efetiva.</p>
+            <p>Para enfrentar essa realidade, é necessário que o Estado, em parceria com municípios, organizações da sociedade civil e organismos internacionais, desenvolva políticas de acolhimento integradas. Isso inclui a ampliação de programas de regularização migratória, a capacitação de servidores públicos e a promoção de ações educativas que combatam o preconceito. Somente por meio de um acolhimento que respeite a dignidade humana e reconheça os migrantes como sujeitos de direitos será possível construir uma convivência mais justa e solidária em contextos globais.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-3" data-cat="meio-ambiente" data-num="3">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 03 <span aria-hidden="true">·</span> Meio ambiente</p>
+          <h2 class="reader-title">El Niño e mudanças climáticas: desafios para a preparação da sociedade diante de eventos extremos</h2>
+          <p class="reader-meta">307 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>O fenômeno El Niño, caracterizado pelo aquecimento anormal das águas do Oceano Pacífico, tem se tornado cada vez mais intenso e frequente em razão das mudanças climáticas. Seus efeitos — estiagens prolongadas em algumas regiões e chuvas excessivas em outras — representam um desafio crescente para a sociedade brasileira, especialmente no que diz respeito à preparação e à redução dos impactos sociais e econômicos dos eventos extremos.</p>
+            <p>Historicamente, o El Niño já provocou consequências graves no Brasil, como secas severas no Nordeste e no Centro-Oeste e enchentes no Sul. Com o aquecimento global, esses eventos tendem a se tornar mais imprevisíveis e destrutivos, afetando a produção agrícola, o abastecimento de água, a geração de energia e a segurança de milhares de famílias. As populações mais vulneráveis, que residem em áreas de risco ou dependem diretamente da agricultura familiar, são as que mais sofrem com a falta de planejamento e de infraestrutura adequada.</p>
+            <p>Apesar dos avanços no monitoramento climático, a capacidade de resposta da sociedade ainda é limitada. A ausência de políticas preventivas consistentes, a precariedade de sistemas de alerta precoce em muitos municípios e a falta de educação ambiental contribuem para que os impactos sejam mais severos do que poderiam ser. Sem uma cultura de preparação, o país continua reagindo aos desastres em vez de antecipá-los.</p>
+            <p>Para enfrentar esse cenário, é necessário que o poder público, em articulação com institutos de pesquisa, municípios e a sociedade civil, invista em sistemas de monitoramento e alerta mais eficientes, fortaleça a infraestrutura resiliente e promova a educação climática nas escolas. Além disso, políticas de adaptação que priorizem as populações vulneráveis são essenciais para garantir que o direito à segurança e à dignidade seja respeitado. Somente com planejamento e ações coordenadas será possível reduzir os danos causados pelo El Niño e por outros eventos extremos em um contexto de mudanças climáticas.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-4" data-cat="saude" data-num="4">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 04 <span aria-hidden="true">·</span> Saúde e comportamento</p>
+          <h2 class="reader-title">Cultura fitness: bem-estar ou busca por estética inatingível</h2>
+          <p class="reader-meta">331 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>A cultura fitness consolidou-se como um dos fenômenos mais marcantes da sociedade contemporânea. Se, por um lado, ela incentiva a prática de exercícios e a adoção de hábitos saudáveis, por outro, tem alimentado uma busca incessante por padrões corporais rigorosos e, muitas vezes, irreais. O grande desafio atual é perceber quando o cuidado com o corpo deixa de ser sinimo de bem-estar e se transforma em pressão estética prejudicial, especialmente entre crianças e adolescentes.</p>
+            <p>É inegável que a valorização da atividade física trouxe avanços importantes. Mais pessoas passaram a se preocupar com a saúde, a alimentação e a qualidade de vida. No entanto, a disseminação de imagens idealizadas nas redes sociais e a popularização de desafios digitais que valorizam músculos definidos e “barrigas trincadas” têm distorcido o sentido original do fitness. Crianças e jovens, ainda em formação da própria identidade, passam a associar aceitação social e autoestima exclusivamente à aparência física, o que pode gerar insatisfação corporal precoce e comportamentos obsessivos.</p>
+            <p>Além disso, a indústria do fitness e da estética frequentemente explora essa insegurança. A constante exposição a corpos “perfeitos” cria a falsa ideia de que felicidade e sucesso dependem de um padrão estético difícil de alcançar. Como consequência, aumentam os casos de transtornos alimentares, uso indiscriminado de suplementos e até práticas extremas que colocam a saúde em risco. O que deveria ser uma busca por equilíbrio transforma-se, para muitos, em fonte de ansiedade, comparação e exclusão.</p>
+            <p>Diante desse cenário, é necessário que escolas, famílias, profissionais de saúde e plataformas digitais atuem de forma conjunta. É fundamental promover a educação crítica sobre imagem corporal, valorizar a diversidade de corpos e estimular a prática esportiva como fonte de prazer e saúde, e não como obrigação estética. Campanhas educativas e maior regulamentação da publicidade voltada ao público infantil e juvenil também são medidas essenciais. Somente assim será possível resgatar o verdadeiro sentido da cultura fitness: o cuidado genuíno com o corpo e a mente, respeitando os limites e a dignidade de cada pessoa.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-5" data-cat="sociedade" data-num="5">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 05 <span aria-hidden="true">·</span> Sociedade e direitos</p>
+          <h2 class="reader-title">Povos originários e direitos constitucionais: desafios para a efetivação da cidadania indígena no Brasil</h2>
+          <p class="reader-meta">306 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>A Constituição Federal de 1988 representou um marco histórico ao reconhecer aos povos indígenas o direito à diferença cultural, à terra tradicionalmente ocupada e à autonomia organizativa. No entanto, mais de três décadas depois, a efetivação desses direitos ainda enfrenta obstáculos estruturais. A cidadania indígena, embora garantida no plano formal, continua sendo parcialmente negada na prática, o que evidencia a distância entre o texto constitucional e a realidade vivida por milhares de indígenas no país.</p>
+            <p>Um dos principais entraves está na questão territorial. A demora na demarcação e homologação de terras indígenas gera insegurança jurídica, conflitos com invasores e violência no campo. Sem a garantia do território, fica comprometida não apenas a sobrevivência física das comunidades, mas também a preservação de seus modos de vida, línguas e conhecimentos tradicionais. Além disso, a precariedade no acesso a serviços de saúde e educação diferenciada reforça a vulnerabilidade social desses povos, dificultando o exercício pleno da cidadania.</p>
+            <p>Outro desafio importante é o desconhecimento e o preconceito ainda presentes em parte da sociedade brasileira. A visão estereotipada do indígena como “atrasado” ou “obstáculo ao desenvolvimento” alimenta discursos que relativizam direitos constitucionais e justificam práticas de exclusão. Sem o reconhecimento efetivo da diversidade cultural como valor democrático, as políticas públicas tendem a ser insuficientes ou inadequadas às realidades específicas de cada povo.</p>
+            <p>Para superar esse cenário, é necessário que o Estado, em articulação com as organizações indígenas, priorize a conclusão dos processos de demarcação de terras, fortaleça a Funai e invista em políticas públicas interculturalmente adequadas nas áreas de saúde, educação e segurança. Além disso, é fundamental promover a educação escolar sobre a história e os direitos dos povos originários, combatendo o preconceito desde a formação básica. Somente por meio do cumprimento efetivo da Constituição e do respeito à autonomia indígena será possível transformar direitos formais em cidadania real e plena.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-6" data-cat="tecnologia" data-num="6">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 06 <span aria-hidden="true">·</span> Tecnologia e mídia</p>
+          <h2 class="reader-title">Consumo, mídia e cultura: como as referências mediadas por algoritmos influenciam os modos de vida na sociedade contemporânea</h2>
+          <p class="reader-meta">218 palavras · 1 min de leitura</p>
+          <div class="reader-text">
+            <p>Na sociedade contemporânea, as redes sociais tornaram-se importantes meios de informação e entretenimento. Entretanto, os algoritmos dessas plataformas selecionam os conteúdos apresentados aos usuários, influenciando seus hábitos, opiniões e escolhas. Nesse contexto, a falta de transparência digital e o consumo excessivo de conteúdos personalizados representam desafios para a sociedade.</p>
+            <p>Em primeiro lugar, os algoritmos podem limitar o acesso à diversidade de informações. Isso acontece porque as plataformas priorizam publicações semelhantes aos interesses de cada indivíduo, criando uma espécie de bolha informacional. Como consequência, muitos usuários deixam de conhecer diferentes opiniões, o que prejudica o pensamento crítico e favorece a disseminação de informações falsas.</p>
+            <p>Além disso, a influência da mídia digital modifica os padrões de consumo e comportamento. A divulgação constante de produtos, estilos de vida e padrões estéticos por influenciadores pode estimular compras desnecessárias e gerar insatisfação pessoal. Dessa maneira, os usuários passam a comparar sua realidade com modelos muitas vezes distantes de suas condições financeiras e sociais.</p>
+            <p>Portanto, cabe ao Estado, em parceria com as escolas e as empresas de tecnologia, promover a educação digital e ampliar a transparência dos algoritmos. Isso deve ocorrer por meio de campanhas educativas e da fiscalização das plataformas, incentivando o consumo consciente de informações. Assim, será possível garantir maior autonomia aos usuários e uma relação mais saudável com a mídia digital.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-7" data-cat="ciencia" data-num="7">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 07 <span aria-hidden="true">·</span> Ciência e tecnologia</p>
+          <h2 class="reader-title">Exploração espacial no século XXI: desafios para a conciliação entre avanço científico e responsabilidade social</h2>
+          <p class="reader-meta">207 palavras · 1 min de leitura</p>
+          <div class="reader-text">
+            <p>A exploração espacial representa uma das maiores conquistas da humanidade, permitindo avanços científicos e tecnológicos importantes. Entretanto, no século XXI, surge um debate sobre a necessidade de conciliar esses investimentos com os problemas sociais existentes na Terra. Nesse cenário, a desigualdade no acesso aos benefícios tecnológicos e a falta de responsabilidade ambiental tornam-se desafios que precisam ser enfrentados.</p>
+            <p>Em primeiro lugar, é importante destacar que os investimentos espaciais podem contribuir para o desenvolvimento da sociedade. Tecnologias utilizadas em satélites, por exemplo, auxiliam na previsão de fenômenos climáticos, na comunicação e no monitoramento ambiental. Contudo, quando esses avanços não são direcionados ao bem coletivo, seus benefícios ficam restritos a determinados grupos e países, ampliando desigualdades já existentes.</p>
+            <p>Além disso, a exploração espacial exige responsabilidade ambiental e cooperação internacional. O acúmulo de lixo espacial e a disputa por recursos e posições estratégicas demonstram que o progresso científico, sem planejamento, pode gerar novos problemas. Dessa forma, o desenvolvimento tecnológico precisa estar acompanhado de princípios éticos e ações coletivas.</p>
+            <p>Portanto, cabe aos governos, em parceria com instituições científicas, estabelecer acordos internacionais, fiscalizar atividades espaciais e incentivar pesquisas sustentáveis. Essas medidas devem garantir que os benefícios da exploração espacial sejam compartilhados de maneira justa, conciliando o avanço científico com a responsabilidade social.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-8" data-cat="sociedade" data-num="8">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 08 <span aria-hidden="true">·</span> Sociedade e direitos</p>
+          <h2 class="reader-title">O respeito às diferenças como caminho para a superação dos conflitos sociais na sociedade contemporânea</h2>
+          <p class="reader-meta">298 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>A sociedade contemporânea é marcada por uma intensa diversidade cultural, étnica, de gênero e de pensamento. No entanto, essa pluralidade, que deveria ser fonte de enriquecimento, frequentemente se transforma em motivo de tensão e violência. Diante desse cenário, o respeito às diferenças emerge como condição fundamental para a superação dos conflitos sociais, pois só por meio do reconhecimento da legitimidade do outro é possível construir relações baseadas no diálogo e na convivência pacífica.</p>
+            <p>Historicamente, a intolerância tem alimentado divisões profundas. No Brasil, práticas discriminatórias contra negros, indígenas, pessoas LGBTQIA+ e grupos religiosos evidenciam como o desrespeito às diferenças perpetua desigualdades e gera violência. Quando uma parcela da população é tratada como inferior ou ameaçadora, abrem-se caminhos para o preconceito estrutural e para conflitos que afetam a coesão social. A falta de empatia e a recusa ao convívio com o diferente transformam a diversidade em campo de disputa, em vez de oportunidade de aprendizado coletivo.</p>
+            <p>Por outro lado, o respeito às diferenças atua como instrumento de pacificação. A educação formal e informal, quando voltada à valorização da pluralidade, forma cidadãos capazes de dialogar sem a necessidade de anular o outro. Experiências de mediação de conflitos em escolas e comunidades mostram que o reconhecimento mútuo reduz a hostilidade e fortalece laços sociais. Além disso, políticas públicas inclusivas e a valorização da cultura de paz contribuem para que a diferença deixe de ser vista como ameaça e passe a ser compreendida como parte constitutiva da democracia.</p>
+            <p>Portanto, superar os conflitos sociais na contemporaneidade exige mais do que repressão ou silenciamento. Exige a construção cotidiana de uma ética do respeito, na qual cada indivíduo seja reconhecido em sua singularidade. Somente assim a diversidade deixará de ser motivo de divisão e se consolidará como alicerce de uma sociedade mais justa, dialógica e solidária.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-9" data-cat="meio-ambiente" data-num="9">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 09 <span aria-hidden="true">·</span> Meio ambiente</p>
+          <h2 class="reader-title">Quando a seca encontra a enchente: impactos sociais e econômicos das mudanças no ciclo hidrológico</h2>
+          <p class="reader-meta">316 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>As alterações no ciclo hidrológico, intensificadas pelas mudanças climáticas e pela ação humana, têm gerado um cenário paradoxal: regiões que sofrem com estiagens prolongadas também enfrentam enchentes devastadoras. Esse fenômeno, cada vez mais frequente no Brasil, provoca graves consequências sociais e econômicas, afetando especialmente as populações mais vulneráveis. Diante disso, torna-se urgente discutir os impactos dessas transformações e apresentar soluções que respeitem os direitos humanos.</p>
+            <p>Do ponto de vista social, a irregularidade do regime de chuvas aprofunda desigualdades. Em períodos de seca, comunidades rurais e periféricas enfrentam desabastecimento de água, comprometimento da saúde e insegurança alimentar. Já nas enchentes, milhares de famílias perdem moradias e são forçadas a deslocamentos forçados, vivendo em abrigos precários. Grupos historicamente marginalizados — como ribeirinhos, agricultores familiares e moradores de áreas de risco — sofrem de forma desproporcional, o que evidencia a violação do direito à moradia digna, à saúde e à segurança.</p>
+            <p>Economicamente, os prejuízos são igualmente expressivos. A agricultura, base de muitas economias regionais, sofre com a perda de safras tanto pela falta quanto pelo excesso de água. Infraestruturas urbanas e rurais são destruídas, gerando custos elevados de reconstrução e interrompendo atividades produtivas. Pequenos produtores e trabalhadores informais, sem acesso a seguros ou políticas de proteção, entram em ciclos de empobrecimento, o que reforça a desigualdade e limita o desenvolvimento local.</p>
+            <p>Para enfrentar esse cenário, é necessário que o Estado, em parceria com a sociedade civil e instituições de pesquisa, implemente políticas de adaptação climática baseadas na justiça social. Isso inclui o investimento em infraestrutura resiliente, o fortalecimento de sistemas de alerta precoce, a promoção de práticas agrícolas sustentáveis e a regularização fundiária em áreas de risco, garantindo reassentamento digno. Somente por meio de ações planejadas e inclusivas será possível reduzir a vulnerabilidade das populações e transformar o enfrentamento das mudanças no ciclo hidrológico em uma oportunidade de construção de uma sociedade mais justa e preparada para o futuro.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-10" data-cat="saude" data-num="10">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 10 <span aria-hidden="true">·</span> Saúde e comportamento</p>
+          <h2 class="reader-title">A estética como imperativo: riscos e implicações do uso indiscriminado de canetas emagrecedoras</h2>
+          <p class="reader-meta">344 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>Na sociedade contemporânea, a busca por um corpo considerado ideal tornou-se quase uma obrigação social. Nesse contexto, as chamadas “canetas emagrecedoras” — medicamentos originalmente destinados ao tratamento de diabetes e obesidade — passaram a ser utilizadas de forma indiscriminada por pessoas que desejam emagrecer rapidamente. Embora prometam resultados ágeis, esse uso sem critérios médicos adequados gera sérios riscos à saúde e reforça padrões estéticos excludentes, transformando a aparência em imperativo social.</p>
+            <p>Do ponto de vista da saúde, o uso irresponsável desses fármacos é preocupante. Especialistas alertam que se trata de substâncias com efeitos colaterais significativos, como náuseas, perda muscular, alterações gastrointestinais e riscos cardiovasculares quando administradas sem acompanhamento. Além disso, a busca por soluções “mágicas” desconsidera a complexidade do emagrecimento, que envolve hábitos alimentares, atividade física e fatores psicológicos. A medicalização da estética, nesse sentido, pode mascarar transtornos alimentares e gerar dependência de intervenções farmacológicas, em vez de promover o cuidado integral com o corpo.</p>
+            <p>Socialmente, o fenômeno revela a força da pressão estética e da indústria da beleza. O corpo magro continua sendo valorizado como sinônimo de sucesso, disciplina e aceitação, o que intensifica a insatisfação corporal, especialmente entre jovens e mulheres. Além disso, o acesso desigual a esses medicamentos — muitas vezes vendidos a preços elevados ou obtidos de forma irregular — aprofunda desigualdades: enquanto alguns têm condições de “comprar” um corpo desejado, outros sofrem as consequências psicológicas de não se encaixarem no padrão. Assim, a estética deixa de ser escolha e passa a funcionar como mecanismo de exclusão.</p>
+            <p>Diante desse cenário, é fundamental que o Estado, em parceria com conselhos de medicina, escolas e meios de comunicação, atue de forma coordenada. É necessário fortalecer a regulamentação da prescrição e da comercialização desses medicamentos, investir em campanhas educativas sobre imagem corporal e saúde integral, e promover, no ambiente escolar, o debate crítico sobre padrões de beleza. Somente por meio de ações que respeitem a autonomia e a dignidade humana será possível reduzir os riscos do uso indiscriminado e construir uma sociedade menos refém da aparência e mais comprometida com o bem-estar real.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-11" data-cat="economia" data-num="11">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 11 <span aria-hidden="true">·</span> Economia</p>
+          <h2 class="reader-title">Da diversão ao endividamento: efeitos socioeconômicos das bets na vida de jovens brasileiros</h2>
+          <p class="reader-meta">313 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>Nos últimos anos, as plataformas de apostas online, conhecidas como “bets”, conquistaram grande popularidade entre os jovens brasileiros. O que inicialmente se apresenta como uma forma de diversão e entretenimento rapidamente se transforma, para muitos, em fonte de endividamento e prejuízos sérios. Esse fenômeno revela impactos socioeconômicos profundos, afetando não apenas a vida financeira, mas também a trajetória educacional e o bem-estar psicológico de uma geração.</p>
+            <p>Do ponto de vista social, o uso excessivo das bets compromete o desenvolvimento pessoal dos jovens. A facilidade de acesso pelo celular, combinada com estratégias de marketing agressivas e a falsa promessa de ganhos rápidos, favorece o surgimento de comportamentos compulsivos. Muitos estudantes passam a priorizar as apostas em detrimento dos estudos, atrasando o ingresso ou a conclusão da faculdade. Além disso, o ciclo de perdas gera ansiedade, frustração e, em casos mais graves, quadros de depressão, afetando a saúde mental e as relações familiares.</p>
+            <p>Economicamente, as consequências são igualmente preocupantes. Jovens que ainda não possuem renda estável ou que dependem de auxílios familiares comprometem recursos essenciais com apostas. O endividamento precoce limita oportunidades futuras, dificulta a conquista de independência financeira e pode empurrar indivíduos para situações de vulnerabilidade. Em famílias de baixa renda, o problema se agrava, pois o dinheiro gasto nas bets frequentemente falta para necessidades básicas, reproduzindo ciclos de precariedade.</p>
+            <p>Diante desse cenário, é necessário que o Estado, em parceria com instituições de ensino, órgãos de defesa do consumidor e plataformas digitais, adote medidas de proteção. Isso inclui a regulamentação mais rigorosa da publicidade dirigida a jovens, a implementação de ferramentas de autocontrole nas plataformas (como limites de gasto e tempo), e a promoção de educação financeira e digital nas escolas. Somente por meio de ações coordenadas e preventivas será possível transformar a relação dos jovens com as apostas, protegendo seu direito à formação plena e a uma vida digna, livre do endividamento precoce.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-12" data-cat="meio-ambiente" data-num="12">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 12 <span aria-hidden="true">·</span> Meio ambiente</p>
+          <h2 class="reader-title">Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</h2>
+          <p class="reader-meta">306 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>O Brasil consolidou-se, nas últimas décadas, como uma das maiores potências agropecuárias do mundo, contribuindo de forma decisiva para a economia nacional e para a segurança alimentar global. No entanto, esse crescimento tem sido acompanhado por desafios ambientais significativos, como o desmatamento, a degradação do solo e a pressão sobre os recursos hídricos. Diante desse cenário, torna-se essencial buscar um equilíbrio entre a força produtiva do agronegócio e a preservação ambiental, garantindo um modelo de desenvolvimento verdadeiramente sustentável.</p>
+            <p>É inegável a importância econômica do setor agropecuário. Ele gera empregos, movimenta cadeias produtivas e garante a inserção do Brasil no mercado internacional. Porém, práticas baseadas na expansão desordenada da fronteira agrícola têm gerado impactos negativos, especialmente na Amazônia e no Cerrado. A perda de biodiversidade, o aumento das emissões de gases de efeito estufa e a ameaça a comunidades tradicionais evidenciam que o crescimento a qualquer custo compromete não apenas o meio ambiente, mas também a própria continuidade da produção no longo prazo.</p>
+            <p>Por outro lado, é possível conciliar produtividade e sustentabilidade. O avanço de tecnologias como a agricultura de precisão, o plantio direto, a integração lavoura-pecuária-floresta e o uso racional de insumos demonstra que eficiência e conservação podem caminhar juntas. Além disso, o fortalecimento de políticas públicas de monitoramento, a valorização de práticas agroecológicas e o cumprimento da legislação ambiental são fundamentais para garantir que o desenvolvimento do setor ocorra de forma responsável.</p>
+            <p>Portanto, construir um agro forte e um futuro sustentável exige compromisso coletivo. Cabe ao Estado investir em fiscalização e em incentivos à produção sustentável; aos produtores, adotar práticas que respeitem os limites dos ecossistemas; e à sociedade, valorizar cadeias produtivas responsáveis. Somente por meio desse equilíbrio será possível garantir que o Brasil continue sendo uma potência agrícola sem sacrificar seu patrimônio natural e o direito das próximas gerações a um meio ambiente equilibrado.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-13" data-cat="economia" data-num="13">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 13 <span aria-hidden="true">·</span> Economia</p>
+          <h2 class="reader-title">O desafio de reduzir as desigualdades entre as regiões do Brasil</h2>
+          <p class="reader-meta">308 palavras · 2 min de leitura</p>
+          <div class="reader-text">
+            <p>O Brasil é um país marcado por profundas desigualdades regionais. Enquanto o Sudeste e o Sul concentram a maior parte da riqueza, da infraestrutura e das oportunidades, o Norte e o Nordeste ainda enfrentam índices elevados de pobreza, precariedade de serviços públicos e limitada capacidade produtiva. Superar esse desequilíbrio histórico constitui um dos maiores desafios para a construção de um desenvolvimento nacional mais justo e inclusivo.</p>
+            <p>As raízes dessa desigualdade são históricas e estruturais. Desde o período colonial, a ocupação do território e os investimentos públicos priorizaram determinadas regiões, consolidando um modelo de desenvolvimento concentrado. A industrialização do século XX reforçou essa tendência, privilegiando o eixo Rio-São Paulo. Como consequência, milhões de brasileiros migraram em busca de melhores condições de vida, enquanto as regiões menos desenvolvidas permaneceram com baixa diversificação econômica, educação de qualidade inferior e infraestrutura precária, perpetuando um ciclo de exclusão.</p>
+            <p>Além dos aspectos econômicos, as desigualdades regionais afetam diretamente o exercício de direitos fundamentais. O acesso desigual à saúde, à educação e ao saneamento básico limita as possibilidades de mobilidade social e reforça a vulnerabilidade de grandes parcelas da população. Sem políticas públicas capazes de redistribuir oportunidades de forma eficiente, o país continua reproduzindo um modelo em que o local de nascimento determina, em grande medida, o futuro do indivíduo.</p>
+            <p>Para enfrentar esse desafio, é necessário que o Estado adote uma política de desenvolvimento regional articulada e de longo prazo. Isso inclui investimentos prioritários em infraestrutura logística e energética nas regiões mais vulneráveis, valorização da educação técnica e superior alinhada às vocações locais, e estímulo a arranjos produtivos regionais sustentáveis. Além disso, é fundamental garantir a participação das comunidades na formulação dessas políticas, respeitando as especificidades culturais e territoriais. Somente por meio de ações planejadas, contínuas e orientadas pela justiça social será possível reduzir as desigualdades regionais e construir um Brasil realmente equilibrado e democrático.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-14" data-cat="cultura" data-num="14">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 14 <span aria-hidden="true">·</span> Cultura e patrimônio</p>
+          <h2 class="reader-title">Preservação dos monumentos históricos e memória coletiva no Brasil contemporâneo (Abordagem I)</h2>
+          <p class="reader-meta">522 palavras · 3 min de leitura</p>
+          <div class="reader-text">
+            <p>A preservação dos monumentos históricos no Brasil contemporâneo enfrenta obstáculos significativos que comprometem a memória coletiva e a identidade cultural da nação. A combinação entre subfinanciamento das políticas públicas, pressão da especulação imobiliária e frágil consciência patrimonial da sociedade tem colocado em risco bens que representam a herança cultural das gerações. Diante desse cenário, é fundamental reconhecer que a proteção desses espaços não é apenas uma questão estética ou turística, mas um compromisso com a identidade e a memória coletiva, conforme destaca o texto de apoio ao afirmar que o patrimônio histórico desempenha papel vital na construção e sustentação da identidade cultural.</p>
+            <p>Um dos principais desafios reside na precariedade das políticas de conservação. Muitos monumentos, especialmente em centros históricos de cidades do interior e capitais, sofrem com a falta de manutenção preventiva e com a escassez de recursos destinados aos órgãos responsáveis, como o Iphan. Sem investimentos contínuos, o processo de deterioração se acelera, transformando bens de valor histórico em ruínas. Paralelamente, a lógica da especulação imobiliária frequentemente prevalece sobre o valor simbólico desses espaços. Em diversas cidades, áreas tombadas são pressionadas por interesses econômicos que priorizam o lucro imediato em detrimento da preservação, gerando conflitos que resultam em demolições ou intervenções que descaracterizam o bem cultural.</p>
+            <p>Além dos fatores econômicos e administrativos, observa-se uma lacuna importante no campo da educação patrimonial. Grande parte da população ainda não reconhece os monumentos históricos como elementos constitutivos de sua própria identidade. Sem o sentimento de pertencimento, a sociedade tende a enxergar o patrimônio como algo distante ou meramente turístico, o que enfraquece a cobrança social por sua proteção. O texto de apoio reforça justamente essa dimensão ao destacar que o patrimônio histórico é uma expressão tangível do passado e uma fonte rica de conhecimento que conecta gerações, proporcionando um entendimento mais profundo das raízes de uma comunidade.</p>
+            <p>Para enfrentar esses desafios, propõe-se uma intervenção estruturada em três eixos complementares. Em primeiro lugar, o poder público federal, em articulação com estados e municípios, deve criar um fundo permanente e específico para a restauração e manutenção de monumentos históricos, com critérios transparentes de priorização e mecanismos de controle social. Em segundo lugar, o Ministério da Educação, em parceria com o Iphan, deve incorporar a educação patrimonial de forma obrigatória no currículo da educação básica, por meio de projetos interdisciplinares que aproximem os estudantes dos bens culturais de suas próprias cidades. Por fim, recomenda-se o fortalecimento da participação comunitária por meio de conselhos locais de patrimônio, compostos por moradores, especialistas e representantes da sociedade civil, garantindo que as decisões sobre o uso e a conservação dos monumentos considerem tanto o valor cultural quanto as necessidades da população do entorno, sempre em respeito aos direitos humanos e à função social da propriedade.</p>
+            <p>A preservação dos monumentos históricos não se restringe à conservação de pedras e construções; trata-se de um compromisso ético com a memória e a identidade coletiva. Somente por meio de políticas públicas consistentes, educação patrimonial efetiva e participação social será possível superar os desafios contemporâneos e assegurar que as futuras gerações herdem não apenas o patrimônio material, mas o sentido de continuidade histórica que ele representa.</p>
+          </div>
+        </article>
+      </template>
+      <template id="redacao-15" data-cat="cultura" data-num="15">
+        <article class="reader">
+          <p class="reader-eyebrow">Redação 15 <span aria-hidden="true">·</span> Cultura e patrimônio</p>
+          <h2 class="reader-title">Preservação dos monumentos históricos e memória coletiva no Brasil contemporâneo (Abordagem II)</h2>
+          <p class="reader-meta">467 palavras · 3 min de leitura</p>
+          <div class="reader-text">
+            <p>A preservação dos monumentos históricos no Brasil contemporâneo enfrenta desafios estruturais que ameaçam a memória coletiva e a identidade cultural do país. A combinação entre subfinanciamento público, pressão da especulação imobiliária e frágil consciência patrimonial tem colocado em risco bens que constituem a herança cultural das gerações. Diante desse cenário, é urgente reconhecer que proteger esses espaços não é apenas uma questão estética, mas um compromisso com a identidade coletiva, conforme destaca o texto de apoio ao afirmar que o patrimônio histórico desempenha papel vital na construção e sustentação da identidade cultural.</p>
+            <p>Um dos principais obstáculos está na precariedade das políticas de conservação. Muitos monumentos, especialmente em centros históricos de cidades médias e pequenas, sofrem com a ausência de manutenção preventiva e com a escassez de recursos destinados aos órgãos responsáveis, como o Iphan. Sem investimentos contínuos, o processo de deterioração se acelera. Paralelamente, a lógica da especulação imobiliária frequentemente prevalece sobre o valor simbólico desses bens. Em diversas cidades, áreas tombadas são pressionadas por interesses econômicos que priorizam o lucro imediato, gerando conflitos que resultam em demolições ou intervenções que descaracterizam o patrimônio.</p>
+            <p>Além dos fatores econômicos e administrativos, observa-se uma lacuna importante no campo da educação patrimonial. Grande parte da população ainda não reconhece os monumentos históricos como elementos constitutivos de sua própria identidade. Sem o sentimento de pertencimento, a sociedade tende a enxergar o patrimônio como algo distante ou meramente turístico, o que enfraquece a cobrança social por sua proteção. O texto de apoio reforça justamente essa dimensão ao destacar que o patrimônio histórico é uma expressão tangível do passado e uma fonte rica de conhecimento que conecta gerações.</p>
+            <p>Para enfrentar esses desafios, propõe-se uma intervenção em três eixos complementares. Em primeiro lugar, o poder público federal, em articulação com estados e municípios, deve criar um fundo permanente e específico para a restauração e manutenção de monumentos históricos, com critérios transparentes e controle social. Em segundo lugar, o Ministério da Educação, em parceria com o Iphan, deve incorporar a educação patrimonial de forma obrigatória no currículo da educação básica, por meio de projetos interdisciplinares que aproximem os estudantes dos bens culturais de suas cidades. Por fim, recomenda-se o fortalecimento da participação comunitária por meio de conselhos locais de patrimônio, compostos por moradores, especialistas e representantes da sociedade civil, garantindo que as decisões considerem tanto o valor cultural quanto as necessidades da população do entorno, sempre em respeito aos direitos humanos.</p>
+            <p>A preservação dos monumentos históricos não se restringe à conservação de pedras e construções; trata-se de um compromisso ético com a memória e a identidade coletiva. Somente com políticas públicas consistentes, educação patrimonial efetiva e participação social será possível superar os desafios contemporâneos e assegurar que as futuras gerações herdem não apenas o patrimônio material, mas o sentido de continuidade histórica que ele representa.</p>
+          </div>
+        </article>
+      </template>
+      <!-- END:TEMPLATES -->
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
